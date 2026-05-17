@@ -71,6 +71,9 @@ The implemented workflow has four phases:
    - Monthly negative-link ratio.
    - Top negative source and target subreddits.
    - Degree distribution.
+   - Community-level negative ratio.
+   - Readable subreddit network sample colored by detected community.
+   - Community-pair negative-ratio heatmap.
    - Model comparison by PR-AUC.
    - Precision-recall and ROC curves.
    - Confusion matrix.
@@ -124,6 +127,11 @@ The main reusable code is in `src/`:
 - `phase3.py`: temporal split, baselines, models, threshold tuning, evaluation.
 - `visualization.py`: report-ready figures.
 
+Supporting folders:
+
+- `reports/`: saved figures and report-facing outputs.
+- `models/`: optional trained-model artifacts for later inference extensions.
+
 ## Important Limitations
 
 - `LINK_SENTIMENT` is a derived label, not a perfect ground-truth label of real-world conflict.
@@ -134,9 +142,9 @@ The main reusable code is in `src/`:
 ## Team Members
 
 - Tran Viet Gia Huy - 31231027056
-- Nguyen Minh Nhut - MSSV
-- Nguyen Trong Huong - MSSV
-- To Xuan Dong - MSSV
+- Nguyen Minh Nhut - 31231022656
+- Nguyen Trong Huong - 31231023691
+- To Xuan Dong - 31231025345
 
 ## License
 
