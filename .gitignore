@@ -23,6 +23,7 @@ env/
 !/data/interim/.gitkeep
 !/data/processed/.gitkeep
 !/models/.gitkeep
+!/models/README.md
 !/reports/figures/.gitkeep
 
 # OS/editor
