@@ -129,7 +129,7 @@ def build_node_feature_table(graph: nx.MultiDiGraph) -> pd.DataFrame:
             simple_graph[source][target]["weight"] += 1
             simple_graph[source][target]["signed_weight"] += sign_weight
         else:
-                simple_graph.add_edge(source, target, weight=1, signed_weight=sign_weight)
+            simple_graph.add_edge(source, target, weight=1, signed_weight=sign_weight)
 
     pagerank_scores = nx.pagerank(simple_graph, alpha=0.85, weight="weight") if simple_graph.number_of_edges() else {}
     betweenness_scores = (
