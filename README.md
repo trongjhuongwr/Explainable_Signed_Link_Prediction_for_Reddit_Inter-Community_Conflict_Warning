@@ -195,10 +195,12 @@ Supporting folders:
 
 ## Team Members
 
-- Tran Viet Gia Huy - 31231027056
-- Nguyen Minh Nhut - 31231022656
-- Nguyen Trong Huong - 31231023691
-- To Xuan Dong - 31231025345
+| No. | Full Name | Class | Student ID | GitHub | Tasks | Progress |
+| :--: | :-- | :--: | :--: | :-- | :-- | :--: |
+| 1 | Tran Viet Gia Huy | CS0001 | 31231027056 | [@Tommyhuy1705](https://github.com/Tommyhuy1705) | - Network Construction and Feature Engineering<br>- Build the signed directed MultiDiGraph using NetworkX<br>- Extract node, pair, community, structural balance, and text-based features<br>- Analyze network structure and community-level negative patterns<br>- Write report<br>- Slides | 100% |
+| 2 | Nguyen Minh Nhut | CS0001 | 31231022656 | [@Sura3607](https://github.com/Sura3607) | - Modeling, Evaluation, and Robustness Analysis<br>- Implement anti-leakage temporal split for model evaluation<br>- Train baseline models, Logistic Regression, Random Forest, XGBoost, and LightGBM<br>- Perform ablation study, threshold tuning, robustness analysis, and error analysis<br>- Write report<br>- Slides | 100% |
+| 3 | Nguyen Trong Huong | CS0001 | 31231023691 | [@trongjhuongwr](https://github.com/trongjhuongwr) | - Dashboard, Pipeline, and Final Reporting<br>- Build the Streamlit dashboard with five interactive tabs<br>- Implement Plotly charts and data access layer for dashboard visualization<br>- Maintain pipeline scripts, unit tests, and presentation generation script<br>- Write report<br>- Slides | 100% |
+| 4 | To Xuan Dong | CS0001 | 31231025345 | [@xuandongg1801](https://github.com/xuandongg1801) | - Data Engineering and Exploratory Data Analysis<br>- Load, clean, and merge Reddit hyperlink datasets<br>- Perform k-core filtering and dataset audit<br>- Analyze label distribution, temporal trends, and top negative sources/targets<br>- Write report<br>- Slides | 100% |
 
 ## License
 
